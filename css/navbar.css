@@ -3,6 +3,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  transition: 0.3s ease-in-out;
 }
 
 nav h1 {
@@ -29,7 +30,7 @@ nav li {
   background-color: white;
   border-radius: 100px;
   margin-bottom: 4px;
-  transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in;
 }
 
 #menu.open .line1 {
@@ -42,6 +43,33 @@ nav li {
 
 #menu.open .line3 {
   transform: rotate(-45deg) translate(5px, -5px);
+}
+
+#menu-content {
+  background-color: #000000eb;
+  border-radius: 0 0 10px 10px;
+  position: fixed;
+  width: 100%;
+  transform: translateY(-1000px);
+  transition: 0.3s ease-in-out;
+}
+
+#menu-content.open {
+  transform: translateY(0);
+}
+
+#nav.open {
+  background-color: black;
+}
+
+#menu-content li {
+  text-align: center;
+  padding: 1em 0;
+  border-bottom: 0.3px solid gray;
+}
+
+#menu-content li:last-child {
+  border-bottom: none;
 }
 
 @media (max-width: 560px) {
