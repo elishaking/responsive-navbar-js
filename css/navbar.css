@@ -1,0 +1,18 @@
+nav {
+  padding: 3em 10vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav h1 {
+  font-size: x-large;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav li {
+  margin-left: 2em;
+}
