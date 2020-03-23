@@ -22,6 +22,7 @@ nav li {
 
 #menu {
   cursor: pointer;
+  display: none;
 }
 
 #menu div {
@@ -75,5 +76,9 @@ nav li {
 @media (max-width: 560px) {
   nav ul {
     display: none;
+  }
+
+  #menu {
+    display: block;
   }
 }
