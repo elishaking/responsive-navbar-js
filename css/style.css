@@ -5,7 +5,8 @@
 }
 
 body {
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  /* font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif; */
+  font-family: "Open Sans", sans-serif;
   background-color: cornflowerblue;
   color: white;
 }
