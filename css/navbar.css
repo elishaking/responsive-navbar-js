@@ -47,6 +47,10 @@ nav li {
 }
 
 #menu-content {
+  list-style: none;
+}
+
+#menu-content {
   background-color: #000000eb;
   border-radius: 0 0 10px 10px;
   position: fixed;
